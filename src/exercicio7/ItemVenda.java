@@ -1,3 +1,5 @@
+package exercicio7;
+
 public class ItemVenda {
     private int id;
     private int quantidade;
@@ -41,7 +43,7 @@ public class ItemVenda {
 
     @Override
     public String toString() {
-        return "ItemVenda{" +
+        return "exercicio7.ItemVenda{" +
                 "\nid=" + id +
                 "\nquantidade=" + quantidade +
                 "\nproduto=" + produto +

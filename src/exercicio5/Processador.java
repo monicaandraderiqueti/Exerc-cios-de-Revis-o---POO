@@ -1,3 +1,5 @@
+package exercicio5;
+
 public class Processador {
     private String marca;
     private String modelo;
@@ -13,7 +15,7 @@ public class Processador {
 
     @Override
     public String toString() {
-        return "\nProcessador{" +
+        return "\nexercicio5.Processador{" +
                 "\nmarca='" + marca + '\'' +
                 "\nmodelo='" + modelo + '\'' +
                 "\nfrequencia=" + frequencia +

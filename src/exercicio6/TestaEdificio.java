@@ -1,3 +1,5 @@
+package exercicio6;
+
 public class TestaEdificio {
     public static void main(String[]args){
         Edificio edificio = new Edificio("Franca Garden", "Rua tal");

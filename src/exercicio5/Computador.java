@@ -1,3 +1,5 @@
+package exercicio5;
+
 public class Computador {
     private int id;
     private String marca;
@@ -14,7 +16,7 @@ public class Computador {
     }
     @Override
     public String toString() {
-        return "\nComputador{" +
+        return "\nexercicio5.Computador{" +
                 "\nid=" + id +
                 "\nmarca='" + marca + '\'' +
                 "\nprocessador=" + processador +

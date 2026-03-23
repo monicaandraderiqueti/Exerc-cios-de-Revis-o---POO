@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package exercicio6;
+
 import java.util.ArrayList;
 
 public class Edificio {
@@ -19,7 +20,7 @@ public class Edificio {
 
     @Override
     public String toString() {
-        return "\nEdificio{" +
+        return "\nexercicio6.Edificio{" +
                 "\nnome='" + nome + '\'' +
                 "\nendereco='" + endereco + '\'' +
                 "\napartamento=" + apartamentos +

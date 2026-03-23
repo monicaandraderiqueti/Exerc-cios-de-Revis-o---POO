@@ -1,3 +1,5 @@
+package exercicio7;
+
 public class Cliente {
     private int id;
     private String nome;
@@ -27,7 +29,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "exercicio7.Cliente{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 '}';

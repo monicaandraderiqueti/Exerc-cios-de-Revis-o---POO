@@ -1,3 +1,5 @@
+package exercicio7;
+
 public class TestaVenda {
     public static void main(String [] args){
         Produto produto01 = new Produto(1, "Arroz", 30f);

@@ -1,3 +1,5 @@
+package exercicio7;
+
 public class Produto {
     private int id;
     private String nome;
@@ -25,7 +27,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "exercicio7.Produto{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", preco=" + preco +

@@ -1,4 +1,5 @@
-import java.time.LocalDateTime;
+package exercicio8;
+
 //Objeto Parte
 public class Ingresso {
     private int id;
@@ -18,7 +19,7 @@ public class Ingresso {
 
     @Override
     public String toString() {
-        return "\nIngresso{" +
+        return "\nexercicio8.Ingresso{" +
                 "\nid=" + id +
                 "\nassento='" + assento + '\'' +
                 "\ntipo='" + tipo + '\'' +

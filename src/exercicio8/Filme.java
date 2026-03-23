@@ -1,3 +1,5 @@
+package exercicio8;
+
 public class Filme{
     private int id;
     private String titulo, genero;
@@ -47,7 +49,7 @@ public class Filme{
 
     @Override
     public String toString() {
-        return "\nFilme{" +
+        return "\nexercicio8.Filme{" +
                 "\nid=" + id +
                 "\ntitulo='" + titulo + '\'' +
                 "\ngenero='" + genero + '\'' +

@@ -1,3 +1,5 @@
+package exercicio8;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -29,7 +31,7 @@ public class Sessao {
 
     @Override
     public String toString() {
-        return "\nSessao{" +
+        return "\nexercicio8.Sessao{" +
                 "\nid=" + id +
                 "\nhorario=" + horario +
                 "\nsala=" + sala +

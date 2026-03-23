@@ -1,3 +1,5 @@
+package exercicio7;
+
 import java.util.ArrayList;
 //Todo-Parte
 
@@ -47,7 +49,7 @@ public class Venda {
     }
 
     public void mostrarVenda() {
-        System.out.println("Cliente: " + cliente.getNome());
+        System.out.println("exercicio7.Cliente: " + cliente.getNome());
         System.out.println("Itens:");
 
         for (ItemVenda item : itemdevenda) {
